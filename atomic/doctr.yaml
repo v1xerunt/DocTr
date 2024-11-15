@@ -1,0 +1,28 @@
+data_path: './atomic'
+checkpoint_dir: './models'
+dataset_save_path: './models/trial_zero-dataset.pth'
+dataloaders_save_path: './models/trial_zero-for-Doctr-dataloader.pth'
+save_dataset: True
+save_dataloaders: True
+checkpoint_dir: './models/'
+train_neg_sample_args:
+  uniform: 1
+benchmark_filename: ['train', 'val', 'test']
+
+load_col:
+    inter: [user_id, item_id]
+    user: [user_id, user_feat, user_info, user_summary]
+    item: [item_id, item_feat, item_his, item_feat_2]
+
+hidden_size: 64
+n_layers: 3
+reg_weight: 0.00001
+
+epochs: 300
+train_batch_size: 2048
+learning_rate: 0.001
+eval_batch_size: 2048
+topk: [5, 10, 20]
+valid_metric: 'composite_similarity_gt'
+
+metrics: ['CompositeSimilarity', 'CompositeSimilarity_GT']
