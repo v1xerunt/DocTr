@@ -18,7 +18,7 @@ All data should be downloaded in the ```data``` folder.
 - US State level zipcode mapping file ```uszips.csv``` from https://github.com/akinniyi/US-Zip-Codes-With-City-State/tree/master
 - Trial XML files from https://clinicaltrials.gov/
 
-We have provided some processed data in the ```data``` folder. They can be read using ```pickle.read``` Some key files are:
+We have provided processed data in the ```data``` folder. They can be read using ```pickle.read``` Some key files are:
 
 - ```npi2trial.pkl```: The linked relationship between NPI and NCTID.
 - ```npi_info_dict.pkl```: The clinician information extracted from CMS data, including location information and other public information.
