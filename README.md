@@ -1,6 +1,13 @@
 # DocTr
 
-Source code for paper DocTr: Optimizing Clinical Trial Site Selection using Open Payments and Patient Encounter Data
+Source code for paper *Matching clinicians with clinical trials using AI, Nature Health, 2026*
+
+## Citation
+If you find our work helpful, please cite it by
+
+`
+Gao, J., Xiao, C., Glass, L.M. et al. Matching clinicians with clinical trials using AI. Nat. Health 1, 290–299 (2026). https://doi.org/10.1038/s44360-026-00073-6
+`
 
 ## Requirements
 
